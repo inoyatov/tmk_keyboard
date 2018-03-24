@@ -1,0 +1,13 @@
+# Using source code
+ git clone https://github.com/dfu-programmer/dfu-programmer.git
+ cd dfu-programmer/
+ sudo apt install automake
+ sudo apt install libusb-1.0
+ sudo apt install libusb-dev
+ ./bootstrap.sh 
+ ./configure 
+ make
+ sudo make install
+
+# Using Package Manager
+sudo apt install dfu-programmer
